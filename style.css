@@ -349,6 +349,8 @@
     color: #253D4E;
 }
 
+
+
 /* carzinka */
 .carzinka{
     padding: 0 150px;
@@ -395,17 +397,20 @@
 
 
 .carzinka__box{
-    padding: 40px 60px;
+    padding: 40px;
     width: 182px;
     height: 235px;
     border-radius: 10px;
     background-color: #F4F6FA;
     text-align: center;
+    display: block;
+    justify-content: center;
 }
 
 
 .carzinka__box--text{
     width: 73px;
+    margin: auto;
     font-size: 16px;
     font-weight: 700;
     color: #253D4E;
