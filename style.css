@@ -211,6 +211,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .hero2{
@@ -265,3 +266,158 @@
 }
 
 
+
+/* main */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.main1__header{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.main1__header--text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #253D4E;
+}
+
+.main1__header--ul{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+.main1__header--li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #253D4E;
+}
+
+
+.main1__header--li:first-child{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3BB77E;
+}
+
+
+/* main2 */
+.main2__box{
+    width: 302px;
+    height: auto;
+    border: 2px solid #e2e2e2;
+    box-shadow: 0 3px 17px #e4e4e4;
+    padding: 31px;
+    border-radius: 15px;
+}
+
+.main2__box--text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #253D4E;
+    margin-bottom: 20px;
+}
+
+
+.sa{
+    margin-bottom: 20px;
+}
+
+.main2__box--card{
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #F2F3F4;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.main2__box--card--p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #253D4E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* product */
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.product__box{
+    width: 516.6300048828125px;
+    height: 302.7200012207031px;
+    background-image: url(image/alt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 77px 50px;
+}
+
+
+.wq{
+    background-image: url(icon/alt\ \(2\).png);
+}
+
+.wq2{
+    background-image: url(icon/alt\ \(1\).png);
+}
+
+.sd{
+    width: 244.4499969482422px;
+    color: #253D4E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.qw{
+    width: 244.4499969482422px;
+    color: #253D4E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.product__box--btn{
+    padding: 10px 13px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #3BB77E;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
