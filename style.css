@@ -558,7 +558,7 @@
 /* main3 */
 .main3{
     padding: 0 150px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .main3__box{
@@ -609,4 +609,38 @@
     margin-left: 895px;
     margin-top: 120px;
     border-radius: 0 0 25px 0 ;
+}
+
+
+/* cards */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 150px;
+}
+
+.cards__card{
+    width: 302px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #F4F6FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards__card--p{
+    font-size:16px ;
+    font-weight: 600;
+    color: #242424;
+}
+
+.cards__card--p2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ADADAD;
+    margin-top: 4px;
 }
