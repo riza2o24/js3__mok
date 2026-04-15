@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest mark & grocery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- sign -->
+        <div class="sign">
+            <ul class="sign__ul">
+                <li class="sign__ul--li">About Us</li>
+
+                <img src="image/Vertical Divider.png" alt="Vertical">
+
+                <li class="sign__ul--li">My Account</li>
+
+                <img src="image/Vertical Divider.png" alt="Vertical">
+
+                <li class="sign__ul--li">Wishlist</li>
+
+                <img src="image/Vertical Divider.png" alt="Vertical">
+
+                <li class="sign__ul--li">Order Tracking</li>
+            </ul>
+
+            <p class="sign__paragrf">100% Secure delivery without contacting the courier</p>
+
+            <ul class="sign__ul">
+                <li class="sign__ul--li">Need help? Call Us: <span>+1800900122</span></li>
+
+                <img src="image/Vertical Divider.png" alt="Vertical">
+
+                <li class="sign__ul--li">English <img src="icon/Vector.png" alt="Vector"></li>
+
+                <img src="image/Vertical Divider.png" alt="Vertical">
+                
+                <li class="sign__ul--li">INR <img src="icon/Vector.png" alt="Vector"></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <!-- header -->
+        <header class="header">
+            <div class="header__flex">
+                <img src="image/Nest.png" alt="Nest">
+
+                <div class="header__flex--box">
+                    <input id="input" type="text" placeholder="Search for products...">
+
+                    <button class="header__flex--box--btn">Search</button>
+                </div>
+            </div>
+
+            
+            <div class="header__flex2">
+
+                <button class="header__icon">Became Vendor <img src="icon/Vector (1).png" alt="Vector"></button>
+
+
+                <ul class="header__flex2--ul">
+                    <li class="header__flex2--ul--li"><img src="icon/Group.png" alt="icon">Compare</li>
+                    
+                    <li class="header__flex2--ul--li"><img src="icon/Group (1).png" alt="icon">Wishlist</li>
+
+                    <li class="header__flex2--ul--li"><img src="icon/Group (2).png" alt="icon">Cart</li>
+
+                    <li class="header__flex2--ul--li"><img src="icon/Group (3).png" alt="icon">Accounta</li>
+                </ul>
+            </div>
+
+        </header>
+
+        <hr>
+
+        <!-- header2 -->
+        <header class="header2">
+            <div class="header2__box">
+                <button class="header2__box--btn"><img src="icon/Vector (3).png" alt="icon">Browse All Categories <img src="icon/Vector (2).png" alt="icon"></button>
+
+                <ul class="header2__box--ul"> 
+                    <li class="header2__box--ul--li"><img src="icon/Vector (4).png" alt="icon">Hot Deals</li>
+                    <li class="header2__box--ul--li">Home <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">About<img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Shop <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Mega Menu <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Vendors <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Blog <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Pages <img src="icon/Vector (5).png" alt="icon"></li>
+                    <li class="header2__box--ul--li">Contact<img src="icon/Vector (5).png" alt="icon"></li>
+                </ul>
+            </div>
+
+            <div class="header2__box2">
+                <img src="icon/Vector (6).png" alt="icon">
+
+                <div>
+                    <h3 class="header2__box2--text">1900888123</h3>
+                    <p class="header2__box2--paragrf">24/7 Support Center</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- hero -->
+        <div class="hero">
+            <div class="hero2">
+                <h1 class="hero2__text">Fresh Vegetables Big discount</h1>
+
+                <p class="hero2__paragrf">Sign up for the daily newsletter</p>
+
+                <div class="hero2__box">
+                    <input id="input2" type="text" placeholder="Your email address">
+
+                    <button class="hero2__box--btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+
+            <div class="main1">
+
+                <div class="main1__header">
+                    <h4 class="main1__header--text">Popular Products</h4>
+
+                    <ul class="main1__header--ul">
+                        <li class="main1__header--li oll">All</li>
+                        <li class="main1__header--li">Baking material</li>
+                        <li class="main1__header--li">Fresh Fruits</li>
+                        <li class="main1__header--li">Milks & Dairies</li>
+                        <li class="main1__header--li">Meats</li>
+                        <li class="main1__header--li">Vegetables</li>
+                    </ul>
+                </div>
+
+
+                <!-- API -->
+                <div id="main__API">
+
+                </div>
+
+            </div>
+
+            <div class="main2">
+
+                <div class="main2__box">
+                    <h3 class="main2__box--text">Category</h3>
+
+                    <img class="sa" src="icon/Horizontal Divider.png" alt="Horizontal">
+
+                    <!-- 1 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Baking material</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Bread and Juice</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+
+                    <!-- 3 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Fresh Fruit</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+
+                    <!-- 4 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Fresh Seafood</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+
+                    <!-- 5 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Pet Foods & Toy</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Vegetables</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Wines & Drinks</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+
+
+                    <!-- 8 -->
+                    <div class="main2__box--card">
+                        <img src="icon/category-2.png.svg" alt="category-2">
+
+                        <p class="main2__box--card--p">Uncategorized</p>
+
+                        <img src="icon/Background (1).png" alt="Background">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- product -->
+        <div class="product">
+            <!-- 1 -->
+            <div class="product__box">
+
+                <h3 class="product__box--text sd">Everyday Fresh & Clean with Our Products</h3>
+
+                <button class="product__box--btn">Shop Now <img src="icon/Vector (7).png" alt="icon"></button>
+
+            </div>
+
+            <!-- 2 -->
+            <div class="product__box wq">
+
+                <h3 class="product__box--text qw">Make your Breakfast Healthy and Easy</h3>
+
+                <button class="product__box--btn">Shop Now <img src="icon/Vector (7).png" alt="icon"></button>
+
+            </div>
+
+
+            <!-- 3 -->
+            <div class="product__box wq2">
+
+                <h3 class="product__box--text qw">The best Organic Products Online</h3>
+
+                <button class="product__box--btn">Shop Now <img src="icon/Vector (7).png" alt="icon"></button>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- carzinka -->
+        <div class="carzinka">
+            <header class="carzinka__header">
+                <div class="flex">
+                    <h3 class="carzinka__header--h3">Shop by Categories</h3>
+
+                    <p class="carzinka__header--p">All Categories  <img src="icon/Vector (8).png" alt="icon"></p>
+                </div>
+
+                <img src="icon/Container.png" alt="container">
+            </header>
+
+            <div class="carzinka__card">
+                <!-- 1 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt.svg" alt="icon">
+
+                    <h4 class="carzinka__box--text">Milks and Dairies</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+                <!-- 2 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (3).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Wines & Alcohol</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (4).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Clothing & Beauty</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (5).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Pet Food Toy</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+
+                <!-- 5 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (6).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Baking material</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+                <!-- 6 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (7).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Vegetables & tubers</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+
+                <!-- 7 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (8).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Fresh Seafood</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+
+                <!-- 8 -->
+                <div class="carzinka__box">
+                    <img src="icon/alt (9).png" alt="icon">
+
+                    <h4 class="carzinka__box--text">Packaged fast food</h4>
+
+                    <p class="carzinka__box--p">4 items</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- product2 -->
+        <div class="product2">
+            <!-- 1 -->
+            <div class="product2__box">
+                <h3 class="product2__box--text">Top Selling</h3>
+
+                <img src="icon/Container (2).png" alt="Horizontal">
+
+                <!-- 1 -->
+                <div class="carzinka__cards">
+                    <img src="image/All Natural Style Chicken Meatballs.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="carzinka__cards">
+                    <img src="image/Angie's  Sweet & Salty Kettle Corn.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="carzinka__cards">
+                    <img src="image/Gorton’s Beer Battered Fish Fillets.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="product2__box">
+                <h3 class="product2__box--text">Trending Products</h3>
+
+                <img src="icon/Container (2).png" alt="Horizontal">
+
+                <!-- 1 -->
+                <div class="carzinka__cards">
+                    <img src="image/All Natural Style Chicken Meatballs.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="carzinka__cards">
+                    <img src="image/Angie's  Sweet & Salty Kettle Corn.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="carzinka__cards">
+                    <img src="image/Gorton’s Beer Battered Fish Fillets.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 3 -->
+            <div class="product2__box">
+                <h3 class="product2__box--text">Recently added</h3>
+
+                <img src="icon/Container (2).png" alt="Horizontal">
+
+                <!-- 1 -->
+                <div class="carzinka__cards">
+                    <img src="image/All Natural Style Chicken Meatballs.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="carzinka__cards">
+                    <img src="image/Angie's  Sweet & Salty Kettle Corn.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="carzinka__cards">
+                    <img src="image/Gorton’s Beer Battered Fish Fillets.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="product2__box">
+                <h3 class="product2__box--text">Top Rated</h3>
+
+                <img src="icon/Container (2).png" alt="Horizontal">
+
+                <!-- 1 -->
+                <div class="carzinka__cards">
+                    <img src="image/All Natural Style Chicken Meatballs.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="carzinka__cards">
+                    <img src="image/Angie's  Sweet & Salty Kettle Corn.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="carzinka__cards">
+                    <img src="image/Gorton’s Beer Battered Fish Fillets.png" alt="image">
+
+                    <div>
+                        <h3 class="carzinka__card--h3">All Natural Style Chicken Meatballs</h3>
+
+                        <img src="icon/Container (1).png" alt="contacting">
+
+                        <div class="flex2">
+                            <p class="flex2__paragrf">$52.85</p>
+                            <s class="flex2__span">$55.80</s>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main3 -->
+        <div class="main3">
+            <div class="main3__box">
+
+            <div>
+                <h2 class="main3__h3">Stay home & get your daily needs from our shop</h2>
+
+                <p class="main3__p">Start Your Daily Shopping with Nest Mart</p>
+
+                <div class="hero2__box sdfg">
+                    <input id="input22" type="text" placeholder="Your email address">
+
+                    <button class="hero2__box--btn">Subscribe</button>
+                </div>
+
+            </div>
+
+            <img class="images" src="image/alt (10).png" alt="alt">
+
+            </div>
+        </div>
+
+
+        <!-- cards -->
+        <div class="cards">
+            <!-- 1 -->
+            <div class="cards__card">
+                <img src="icon/icon.png" alt="icon">
+
+                <div>
+                    <p class="cards__card--p">Best prices & offers</p>
+
+                    <p class="cards__card--p2">Orders $50 or more</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="cards__card">
+                <img src="icon/icon (1).png" alt="icon">
+
+                <div>
+                    <p class="cards__card--p">Free delivery</p>
+
+                    <p class="cards__card--p2">24/7 amazing services</p>
+                </div>
+            </div>
+
+
+            <!-- 3 -->
+            <div class="cards__card">
+                <img src="icon/icon (2).png" alt="icon">
+
+                <div>
+                    <p class="cards__card--p">Great daily deal</p>
+
+                    <p class="cards__card--p2">When you sign up</p>
+                </div>
+            </div>
+
+
+            <!-- 4 -->
+            <div class="cards__card">
+                <img src="icon/icon (3).png" alt="icon">
+
+                <div>
+                    <p class="cards__card--p">Wide assortment</p>
+
+                    <p class="cards__card--p2">Mega Discounts</p>
+                </div>
+            </div>
+
+
+            <!-- 5 -->
+            <div class="cards__card">
+                <img src="icon/icon (4).png" alt="icon">
+
+                <div>
+                    <p class="cards__card--p">Easy returns</p>
+
+                    <p class="cards__card--p2">Within 30 days</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- 1 -->
+            <div>
+                <img src="image/Nest.png" alt="Nest">
+
+                <p class="footer__p">Awesome grocery store website template</p>
+
+                <p class="footer__p2"><img src="icon/Icon (5).png" alt="icon"> Address 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
+
+
+                <p class="footer__p3"><img src="icon/Icon (6).png" alt="icon">(+91)-540-025-124553</p>
+
+                <p class="footer__p3"><img src="icon/Icon (6).png" alt="icon">Email sale@Nest.com</p>
+
+                <p class="footer__p3"><img src="icon/Icon (6).png" alt="icon">Hours 10:00 - 18:00, Mon - Sat</p>
+            </div>
+
+            <!-- 2 -->
+            <ul>
+                <li class="footer__li">Company</li>
+
+                <li class="footer__lii">About Us</li>
+                <li class="footer__lii">Delivery Information</li>
+                <li class="footer__lii">Privacy Policy</li>
+                <li class="footer__lii">Terms & Conditions</li>
+                <li class="footer__lii">Contact Us</li>
+                <li class="footer__lii">Support Center</li>
+                <li class="footer__lii">Careers</li>
+            </ul>
+
+            <!-- 3 -->
+            <ul>
+                <li class="footer__li">Account</li>
+
+                <li class="footer__lii">Sign In</li>
+                <li class="footer__lii">View Cart</li>
+                <li class="footer__lii">My Wishlist</li>
+                <li class="footer__lii">Track My Order</li>
+                <li class="footer__lii">Help Ticket</li>
+                <li class="footer__lii">Shipping Details</li>
+                <li class="footer__lii">Compare products</li>
+            </ul>
+
+
+            <!-- 4 -->
+            <ul>
+                <li class="footer__li">Corporate</li>
+
+                <li class="footer__lii">Become a Vendor</li>
+                <li class="footer__lii">Affiliate Program</li>
+                <li class="footer__lii">Farm Business</li>
+                <li class="footer__lii">Farm Careers</li>
+                <li class="footer__lii">Our Suppliers</li>
+                <li class="footer__lii">Accessibility</li>
+                <li class="footer__lii">Promotions</li>
+            </ul>
+
+
+            <!-- 5 -->
+            <ul>
+                <li class="footer__li">Popular</li>
+
+                <li class="footer__lii">Milk & Flavoured Milk</li>
+                <li class="footer__lii">Butter and Margarine</li>
+                <li class="footer__lii">Eggs Substitutes</li>
+                <li class="footer__lii">Marmalades</li>
+                <li class="footer__lii">Sour Cream and Dips</li>
+                <li class="footer__lii">Tea & Kombucha</li>
+                <li class="footer__lii">Cheese</li>
+            </ul>
+
+            <!-- 6 -->
+            <div>
+                <h4 class="footer__li">Install App</h4>
+
+                <p class="footer__p4">From App Store or Google Play</p>
+
+                <img src="icon/Container (3).png" alt="icon">
+
+                <p class="footer__p5">Secured Payment Gateways</p>
+
+                <img src="icon/img.png" alt="icon">
+
+            </div>
+        </footer>
+
+        <hr>
+
+        
+        <div class="footer2">
+            <p class="footer2__p">© 2022, Nest – WordPress Ecommerce Template All rights reserved</p>
+
+            <div class="flex4">
+                <!-- 1 -->
+            <div class="flex3">
+                <img src="icon/icon (9).png" alt="icon">
+                
+                <div>
+                    <h4 class="footer2__text">1900646666</h4>
+
+                    <p class="footer2__p2">Working 8:00 - 22:00</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="flex3">
+                <img src="icon/icon (9).png" alt="icon">
+                
+                <div>
+                    <h4 class="footer2__text">1900646666</h4>
+
+                    <p class="footer2__p2">24/7 Support Center</p>
+                </div>
+            </div>
+            </div>
+
+            <div>
+                <p class="footer2__p3">Follow Us <img src="icon/47.png" alt="icon"><img src="icon/48.png" alt="icon"><img src="icon/49.png" alt="icon"><img src="icon/50.png" alt="icon"></p>
+                <p class="footer2__p4">Up to 15% discount on your first subscribe</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
