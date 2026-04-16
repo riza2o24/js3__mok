@@ -36,7 +36,7 @@ function showProducts(products){
         <span class="old">$${Math.floor(p.price*1.2)}</span>
     </div>
 
-    <button class="add">Add</button>
+    <button class="add"><img src="image/Vector (9).png" alt="Vector">Add</button>
 </div>
     
     `;
