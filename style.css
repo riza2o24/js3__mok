@@ -1191,5 +1191,42 @@ cursor:pointer;
 }
 
 
+/* main2__box2 */
+.main2__box2{
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    border: 2px solid #e2e2e2;
+    box-shadow: 0 3px 17px #e4e4e4;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.main2__box2--text{
+    margin-bottom: 18px;
+    font-family: 700;
+    font-size: 24px;
+    color: #253D4E;
+}
+
+.main2__box2--p{
+    
+    padding:  15px 12px;
+    box-shadow: 2px 5px 15px #e2e2e2;
+    margin-top: 15px;
+    border: 1px solid #e2e2e2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #39b54a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ppp{
+    margin-top: 20px;
+}
+
 
 
