@@ -276,6 +276,8 @@
     gap: 50px;
 }
 
+
+/* API */
 #main__API{
 display:grid;
 grid-template-columns:repeat(5,1fr);
@@ -285,7 +287,7 @@ margin-top:30px;
 
 .productss{
     width: 234px;
-    height: 411px;
+    height: 390px;
     border:1px solid #e5e5e5;
     border-radius:15px;
     padding:20px;
@@ -310,8 +312,8 @@ display: block;
 
 .discount{
 position:absolute;
-top:10px;
-left:10px;
+top:20px;
+left:20px;
 background:#39b54a;
 color:white;
 padding:3px 8px;
@@ -364,6 +366,23 @@ font-size:13px;
 color:#aaa;
 text-decoration:line-through;
 margin-left:6px;
+}
+
+
+
+.API__p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3BB77E;
+    margin-top: 12px;
+}
+
+.API__p span{
+    color: #B6B6B6;
 }
 
 .add{

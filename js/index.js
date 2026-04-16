@@ -27,9 +27,11 @@ function showProducts(products){
 
     <p class="category">${p.category}</p>
 
-    <h4 class="title">${p.title}</h4>
+    <h4 class="title">${p.title.slice(0,21)}</h4>
 
-   
+    <img src="image/Container (4).png" alt="contacting">
+
+   <p class="API__p"><span>By</span> Maruchan Ramen</p>
 <div class="flex8">
      <div class="price-box">
         <span class="price">$${p.price}</span>
