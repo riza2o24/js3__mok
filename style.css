@@ -1070,5 +1070,21 @@ cursor:pointer;
 
 
 .flex10__li{
-    
+    font-size: 16px;
+    font-weight: 400;
+    color: #3BB77E;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.da{
+    margin-bottom: 0;
+}
+
+.flex10__li span{
+    color: #7E7E7E;
+}
+
+.flex9__iamge{
+    width: 160px;
 }
