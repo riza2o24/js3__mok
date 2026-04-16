@@ -374,6 +374,14 @@ border-radius:6px;
 color:#39b54a;
 cursor:pointer;
 }
+
+.flex8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* api end */
+
 .main1__header{
     width: 1280px;
     display: flex;

@@ -21,7 +21,7 @@ function showProducts(products){
 
     card.innerHTML = `
     
-    <div class="discount">${p.discountPercentage.toFixed(0)}%</div>
+    <div class="discount">${Math.ceil(p.discountPercentage)}%</div>
 
     <img src="${p.thumbnail}" class="product-img">
 
@@ -29,12 +29,15 @@ function showProducts(products){
 
     <h4 class="title">${p.title}</h4>
 
-    <div class="price-box">
+   
+<div class="flex8">
+     <div class="price-box">
         <span class="price">$${p.price}</span>
         <span class="old">$${Math.floor(p.price*1.2)}</span>
     </div>
 
     <button class="add">Add</button>
+</div>
     
     `;
 
