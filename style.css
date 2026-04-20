@@ -1343,7 +1343,7 @@ cursor:pointer;
 }
 
 
-@media(max-width:1700px){
+@media(max-width:1750px){
     .container{
     width: 1700px;
     max-width: 1700px;
