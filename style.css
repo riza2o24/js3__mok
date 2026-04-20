@@ -2893,7 +2893,7 @@ cursor:pointer;
 
     .carzinka__card{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(5,1fr);
         gap: 20px;
     }
 
@@ -2951,7 +2951,7 @@ cursor:pointer;
 
     #main__API{
         display:grid;
-        grid-template-columns:repeat(3,1fr);
+        grid-template-columns:repeat(4,1fr);
         gap:20px;
         margin-bottom: 30px;
     }
