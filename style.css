@@ -1725,7 +1725,6 @@ cursor:pointer;
         padding: 0 40px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        quotes: efd;
     }
 
 
