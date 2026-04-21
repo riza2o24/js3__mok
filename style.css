@@ -1713,7 +1713,7 @@ cursor:pointer;
         display: grid;
         grid-template-columns: repeat(4,1fr);
         padding: 0 40px;
-        gap: 22px;
+        gap: 20px;
     }
 
     .dsss{
