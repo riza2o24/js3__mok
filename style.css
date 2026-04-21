@@ -1732,7 +1732,6 @@ cursor:pointer;
     .main2{
         display: flex;
         gap: 50px;
-        quotes: dd;
     }
 
     .main{
